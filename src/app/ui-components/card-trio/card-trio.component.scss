@@ -4,8 +4,8 @@ $main-font: 'Source Sans Pro',
 sans-serif;
 $white: #fff;
 $black: #000;
-$primary-col: #6200EA;
-$secondary-col: #FF9E80;
+$primary-col: #6200ea00;
+$secondary-col: #ff9e8000;
 $light-col: rgba($secondary-col, .7);
 $mid-col: rgba($primary-col, .8);
 $turn-speed: .8s;
@@ -86,7 +86,12 @@ ion-col:nth-child(3) {
       height: 100%;
       object-fit: cover;
       border-radius: 10px;
-      filter: grayscale(70%) brightness(40%);
+      filter: grayscale(0%) brightness(50%);
+      background-color: black;
+      color: black;
+      border-style: solid;
+      border-color: #ffd700;
+      border-width: 2px;
     }
   }
 
@@ -115,6 +120,7 @@ ion-col:nth-child(3) {
     color: $white;
     text-align: center;
     transform: translateZ(100px);
+
     .title {
       font-size: 2.25em;
     }
