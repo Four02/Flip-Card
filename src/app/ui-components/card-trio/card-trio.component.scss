@@ -1,14 +1,14 @@
 // SETUPS
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
-$main-font: 'Source Sans Pro',
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+$main-font: "Source Sans Pro",
 sans-serif;
 $white: #fff;
 $black: #000;
-$primary-col: #6200ea00;
-$secondary-col: #ff9e8000;
-$light-col: rgba($secondary-col, .7);
-$mid-col: rgba($primary-col, .8);
-$turn-speed: .8s;
+$primary-col: #ffd700;
+$secondary-col: #7e6b00;
+$light-col: rgba($secondary-col, 0.7);
+$mid-col: rgba($primary-col, 0.8);
+$turn-speed: 0.8s;
 $ease: ease-in-out;
 
 @keyframes fadeIn {
@@ -51,7 +51,6 @@ ion-col:nth-child(3) {
   align-items: center;
   background-color: black;
 }
-
 
 // CARD
 .card {
@@ -122,10 +121,19 @@ ion-col:nth-child(3) {
     transform: translateZ(100px);
 
     .title {
-      font-size: 2.25em;
+      font-size: 2em;
+      font-family: monospace;
+      letter-spacing: 1.5px;
+      font-weight: 100;
     }
+  }
 
+  ion-toolbar {
+    background-color: red;
+    color: red;
+  }
 
-
+  .select {
+    width: 100%;
   }
 }
