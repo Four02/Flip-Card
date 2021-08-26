@@ -1,0 +1,28 @@
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+ion-col {
+  animation: fadeIn 2.8s forwards;
+  opacity: 0;
+}
+
+ion-col:nth-child(1) {
+  animation-delay: 1s;
+}
+
+ion-col:nth-child(2) {
+  animation-delay: 2s;
+}
+
+ion-col:nth-child(3) {
+  animation-delay: 3s;
+}

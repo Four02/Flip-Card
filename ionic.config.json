@@ -1,0 +1,7 @@
+{
+  "name": "LFG-Site",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
