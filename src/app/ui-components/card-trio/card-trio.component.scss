@@ -115,47 +115,11 @@ ion-col:nth-child(3) {
     color: $white;
     text-align: center;
     transform: translateZ(100px);
-
-    .title,
-    .subtitle {
-      &::after {
-        content: '';
-        display: block;
-        width: 30px;
-        height: 2px;
-        margin: 1rem auto;
-        background: $white;
-      }
-    }
-
     .title {
       font-size: 2.25em;
     }
 
-    .subtitle {
-      font-size: 2em;
-    }
 
-    .text {
-      font-size: 1.125em;
-    }
 
-    .socials {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-
-      a {
-        display: inline-block;
-        margin: .5rem;
-        font-size: 2em;
-        color: $white;
-        transition: transform .3s;
-
-        &:hover {
-          transform: translateY(-5px);
-        }
-      }
-    }
   }
 }
